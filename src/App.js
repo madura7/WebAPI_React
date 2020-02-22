@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './components/Hero';
+
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Test String
         </a>
+        <button onClick="alert('Hi');">Click me</button>
       </header>
     </div>
   );
